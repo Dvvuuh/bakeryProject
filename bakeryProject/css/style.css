@@ -3,12 +3,22 @@
 * {
     overflow-x: hidden;
 }
+
+h1 {
+    font-family: 'Lobster';
+}
+
 nav {
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 15vw;
+    height: 30vw;
     display: flex;
     justify-content: space-between;
     background-color: #a38787;
+    img {
+        width: 35%;
+    }
 }
 
 div.bgimg {
@@ -23,9 +33,8 @@ main {
         flex-direction: column;
         align-content: center;
         align-items: center;
-        background-color: cornflowerblue;
+        background-color: #2cccc4;
         height: 100%;
-        padding-bottom: 5vw;
 
         .mainContent {
             text-align: center;
@@ -34,6 +43,7 @@ main {
             background-color: #fff;
         }
     }
+
     #second {
         display: flex;
         flex-direction: column;
@@ -50,4 +60,96 @@ main {
         }
 
     }
+
+    #third {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100%;
+
+        .mainContent3 {
+            text-align: center;
+            margin-top: 5vw;
+            width: 60%;
+            background-color: #9f7d7d;
+        }
+    }
+
+    #fourth {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100%;
+
+        .mainContent4 {
+            text-align: center;
+            margin-top: 5vw;
+            width: 60%;
+            background-color: #849f7d;
+        }
+    }
+
+    #fifth {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100%;
+
+        .mainContent5 {
+            text-align: center;
+            margin-top: 5vw;
+            width: 60%;
+            background-color: #849f7d;
+        }
+    }
+
+    #sixth {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100%;
+
+        .mainContent6 {
+            text-align: center;
+            margin-top: 5vw;
+            width: 60%;
+            background-color: #849f7d;
+            padding-bottom: 5vw;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    margin-right: 1vw;
+
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 5vw;
+    background-color: #3b3030;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5vw;
 }
