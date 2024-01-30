@@ -18,7 +18,6 @@ nav {
     align-items: center;
     width: 100%;
     height: 30vw;
-    display: flex;
     justify-content: space-between;
     background-color: #a38787;
 
@@ -32,29 +31,26 @@ nav {
     }
 }
 
-.circleTop {
+.contentTop1 {
     overflow-y: hidden;
-    position: relative;
-    z-index: 2;
 
     .blueCircle {
+        position: relative;
         display: flex;
         align-items: center;
-        transform: translate(15vw, 15vw);
         border-radius: 100%;
         height: 30vw;
         width: 30vw;
         background-color: #2cccc4;
-        z-index: 1;
+        transform: translate(28vw, 15vw);
+        z-index: 2;
     }
 
-    img {
-        transform: translate(-5vw, 0vw);
+    .svgFirst {
         position: relative;
-        width: 20vw;
+        width: 30vw;
+        z-index: 3;
     }
-
-    height: 50vw;
 }
 
 div.bgimg {
@@ -65,16 +61,21 @@ div.bgimg {
 
 main {
     z-index: 1;
+
     #first {
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
         background-color: #2cccc4;
-        height: 100%;
         padding: 25vw 0 10vw 0;
 
         .mainContent {
+            border-radius: 25px;
+            text-align: center;
+            margin-top: 5vw;
+            width: 70%;
+            background-color: #fff;
 
             #firstCard {
                 border-radius: 25px;
@@ -82,15 +83,13 @@ main {
                 top: 80vw;
                 text-align: center;
                 margin-top: 5vw;
-                width: 58%;
                 background-color: #fff;
                 margin-bottom: 50vw;
             }
-            border-radius: 25px;
-            text-align: center;
-            margin-top: 5vw;
-            width: 60%;
-            background-color: #fff;
+
+            #img1 {
+                width: 300px;
+            }
         }
     }
 
@@ -105,10 +104,20 @@ main {
         .mainContent2 {
             text-align: center;
             margin-top: 5vw;
-            width: 60%;
+            width: 70%;
+            height: 400px;
             background-color: #2a2323;
-        }
 
+            .imgSecond {
+                img {
+                    width: 100%;
+                }
+            }
+
+            #painBio {
+                margin-top: 15px;
+            }
+        }
     }
 
     #third {
